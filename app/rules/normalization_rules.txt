@@ -1,0 +1,11 @@
+# Emoticon disambiguation
+;\)    -->    ||sub||wink||sub||
+:\)    -->    ||sub||smile||sub||
+:\(    -->    ||sub||frown||sub||
+
+# Deletions
+\(      -->    ||sub|| ||sub||
+\)      -->    ||sub|| ||sub||
+
+# Money expansions
+(\$)(\d+)    -->    ||sub||\2\1||sub||
